@@ -14,59 +14,59 @@ A simple command-line interface (CLI) application to track and manage your tasks
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/sudofrost/task-tracker-cli.git
+   git clone https://github.com/PecheslavVenik/backend-projects.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd task-tracker-cli
+   cd task-tracker
    ```
 
 3. Build the CLI application:
    ```bash
-   go build -o task-cli
+   go build -o task-tracker
    ```
 
 4. Run the application:
    ```bash
-   ./task-cli list
+   ./task-tracker list
    ```
 
 ## Usage
 To use the task tracker, you can execute commands like:
 - Adding a new task:
   ```bash
-  ./task-cli add "Buy groceries"
+  ./task-tracker add "Buy groceries"
   ```
 
 - Listing all tasks:
   ```bash
-  ./task-cli list
+  ./task-tracker list
   ```
 
 - Listing tasks by status:
   ```bash
-  ./task-cli list [todo, in-progress, done]
+  ./task-tracker list [todo, in-progress, done]
   ```
 
 - Updating a task:
   ```bash
-  ./task-cli update 1 "New task description"
+  ./task-tracker update 1 "New task description"
   ```
 
 - Deleting a task:
   ```bash
-  ./task-cli delete 1
+  ./task-tracker delete 1
   ```
 
 - Marking a task as done:
   ```bash
-  ./task-cli mark-done 1
+  ./task-tracker mark-done 1
   ```
 
 - Marking a task as in progress:
   ```bash
-  ./task-cli mark-in-progress 1
+  ./task-tracker mark-in-progress 1
   ```
 
 ## Project Page
