@@ -29,7 +29,7 @@ A simple command-line interface (CLI) application to track and manage your tasks
 
 4. Run the application:
    ```bash
-   ./task-tracker list
+   ./task-tracker
    ```
 
 ## Usage
